@@ -203,7 +203,7 @@ const speakerTemplate = (speaker) => {
     return (
       `
         <figure class="speaker-item">
-          <img src="${ item.photo }" alt="Palestrante ${ item.name }" width="240" height="210">
+          <img src="${ item.photo }" alt="Palestrante ${ item.name }">
           <figcaption>
             <p class="text-large">${ item.name }</p>
             <p>
