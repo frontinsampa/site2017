@@ -121,7 +121,7 @@ var timeline = [
     title: 'Built for destruction: Preparando sua arquitetura de componentes para o refactor',
     description: 'Lições aprendidas ao criar um sistema de design auto documentável e de fácil refactor utilizando Functional CSS + React.',
     speaker: 'Zéh Fernandes',
-    link: '/midia/build-for-destruction.pdf'
+    link: 'https://speakerdeck.com/zehfernandes/build-for-destruction'
   },
   {
     hour: '16:20 - 16:50',
