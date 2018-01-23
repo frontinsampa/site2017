@@ -164,7 +164,7 @@ gulp.task('default', gulp.series(
       }
     });
 
-    gulp.watch('./source/*.html', gulp.series('index', browserSync.reload));
+    gulp.watch('./source/index.html', gulp.series('index', browserSync.reload));
     gulp.watch('./source/sass/**/*.+(scss|sass)', gulp.series('sass'));
     gulp.watch('./source/js/**/*.js', gulp.series('javascript', browserSync.reload));
     gulp.watch('./source/svg/**/*.svg', gulp.series('svg', browserSync.reload));
