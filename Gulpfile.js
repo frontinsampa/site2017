@@ -130,6 +130,13 @@ gulp.task('backup2016', gulp.series(
   }
 ));
 
+gulp.task('backup2017', gulp.series(
+  function() {
+    return gulp.src('./source/2017/**/*')
+      .pipe(gulp.dest('./build/2017'));
+  }
+));
+
 gulp.task('midia', gulp.series(
   function() {
     return gulp.src('./source/midia/**/*')
@@ -147,6 +154,7 @@ gulp.task('default', gulp.series(
   'backup2014',
   'backup2015',
   'backup2016',
+  'backup2017',
   'midia',
   function() {
     browserSync({
